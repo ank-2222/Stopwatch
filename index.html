@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StopWatch</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div>
+        <p>
+          <span class="timer-sp" id="hr">00</span>Hr<span class="timer-sp" id="min">00</span
+          >Min<span class="timer-sp" id="sec">00</span>Sec<span class="timer-sp" id="cnt"
+            >00</span
+          >
+        </p>
+      </div>
+      <div id="btn-sec">
+        <button class="btn" onclick="startc()">Start</button><button class="btn" onclick="stopc()">Stop</button
+        ><button class="btn" onclick="resetc()">Reset</button>
+      </div>
+    </div>
+
+    <script src="work.js"></script>
+  </body>
+</html>
